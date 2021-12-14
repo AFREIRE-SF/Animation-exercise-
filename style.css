@@ -10,10 +10,10 @@
     images, blocks, texts... 
     whatever your creativity suggests!Work hard!*/
    
-    0%{ background-image: url("../img/1.png"); width: 1000px; }
-    50%{ background-image: url("../img/2.png"); width: 1000px; }
-    70%{ background-image: url("../img/3.jpg"); width: 1000px; }
-    100%{ background-image: url("../img/4.webp"); width: 1000px; }
+    0%{ background-image: url("1.png"); width: 1000px; }
+    50%{ background-image: url("2.png"); width: 1000px; }
+    70%{ background-image: url("3.jpg"); width: 1000px; }
+    100%{ background-image: url("4.webp"); width: 1000px; }
  
 }
 

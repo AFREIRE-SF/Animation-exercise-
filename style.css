@@ -26,7 +26,6 @@
 .container{
     width: 1000px;
     height: 1000px;
-    background-color:purple;
     animation-name: animacao;
     animation-duration: 6s;
     animation-delay: 2s;

@@ -1,0 +1,34 @@
+@keyframes animacao {
+
+   /*  0%{ background-color: purple; width: 500px;}
+    30%{ background-color: rgb(132, 0, 255); width: 400px;}
+    40%{ background-color: rgb(44, 7, 255); width: 300px;}
+    50%{ background-color: rgb(0, 102, 128); width: 200px;}
+    100%{ background-color: yellow; width: 100px;} */
+
+    /* This code is basic but can be adapted in many ways, 
+    images, blocks, texts... 
+    whatever your creativity suggests!Work hard!*/
+
+    0%{ background-image: url(../img/1.png); width: 1000px; }
+    50%{ background-image: url(../img/2.png); width: 1000px; }
+    70%{ background-image: url(../img/3.jpg); width: 1000px; }
+    100%{ background-image: url(../img/4.webp); width: 1000px; }
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    background-color:purple;
+    animation-name: animacao;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
